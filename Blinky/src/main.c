@@ -11,9 +11,6 @@
 // Output compare Reg A
 #define OCR0A S_REG_OFF(0x29)
 
-// Counter Register
-#define TCNT0 S_REG_OFF(0x32)
-
 // Bit mask
 #define BIT_MASK(shift) (1 << shift)
 
@@ -85,3 +82,4 @@ void __vector_10(void) {
   PORTB ^= BIT_MASK(0);
   //TCNT0 = 0x00; //Have to reset counter since in normal mode
 } 
+
