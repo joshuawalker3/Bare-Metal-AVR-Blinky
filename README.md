@@ -1,5 +1,7 @@
 # **AVR Blinky with No Libraries**
 
+![Picture](https://github.com/joshuawalker3/Bare-Metal-AVR-Blinky/blob/main/Pictures/Blinky1.jpeg)
+
 ## **Overview**
 I started this project to begin dipping my toes into bare metal programming and to begin gaining a deeper understanding of programming MCU's. The project simply blinks the LED connected to pin PB0 on the programmer at a frequency of approximately 2 Hz.
 
